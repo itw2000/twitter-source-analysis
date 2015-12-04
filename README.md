@@ -1,10 +1,10 @@
 Tweet Analysis
 =======================
 
-A set scripts for collecting, wrangling, cleaning, and analysis. This is all done on top of a Mongo database which is iniated and collects data from the Twitter streaming API via Twython. Requires most python science packages (numpy, scipy, scikit-learn).
+A set scripts for collecting, wrangling, cleaning, and analysis. This is all done on top of a MongoDB database which is iniated and collects data from the Twitter streaming API via Twython. Requires most python science packages (numpy, scipy, scikit-learn).
 
 ####Collect_store.py 
-Includes the functions to sample the Twitter streaming API and move those tweets into a defined mongoDB collection Tweets. It also includes another Twitter API call function which takes a users screenname as the argument and fills a collection with info on that users friend.
+Includes the functions to sample the Twitter streaming API and move those tweets into a defined MongoDB collection Tweets. It also includes another Twitter API call function which takes a users screenname as the argument and fills a collection with info on that users friend.
 
 ####Data_analyze.py
 
